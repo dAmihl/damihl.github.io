@@ -1,0 +1,4 @@
+baseURL = "http://damihl.github.io/"
+languageCode = "en-us"
+title = "dAmihl's Site"
+theme = "ananke"
