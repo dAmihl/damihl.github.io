@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dAmihl&#39;s blog</title>
+    <title>damihl</title>
     <link>http://damihl.github.io/</link>
-    <description>Recent content on dAmihl&#39;s blog</description>
+    <description>Recent content on damihl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 09 Jan 2020 12:53:05 +0100</lastBuildDate>
