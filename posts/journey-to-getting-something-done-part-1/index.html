@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>damihl  | Journey to Getting Something Done - Part 1</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="generator" content="Hugo 0.62.2" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.d98f2eb6bcd1eaedb7edf166bd16af26.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+    
+
+    
+    
+    <meta property="og:title" content="Journey to Getting Something Done - Part 1" />
+<meta property="og:description" content="The first thing I needed to do was define the kind of game I wanted to make within the constraints that I defined before.
+ Actually the first thing I already decided beforehand was the engine that I&#39;m going to use. Obviously because this series is about getting something done I&#39;m not going to write my own one.
+The game will be made in Godot, mainly because it is free, open source, easy to use and just great overall." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://damihl.github.io/posts/journey-to-getting-something-done-part-1/" />
+<meta property="article:published_time" content="2020-01-10T15:04:42+01:00" />
+<meta property="article:modified_time" content="2020-01-10T15:04:42+01:00" />
+
+<meta itemprop="name" content="Journey to Getting Something Done - Part 1">
+<meta itemprop="description" content="The first thing I needed to do was define the kind of game I wanted to make within the constraints that I defined before.
+ Actually the first thing I already decided beforehand was the engine that I&#39;m going to use. Obviously because this series is about getting something done I&#39;m not going to write my own one.
+The game will be made in Godot, mainly because it is free, open source, easy to use and just great overall.">
+<meta itemprop="datePublished" content="2020-01-10T15:04:42&#43;01:00" />
+<meta itemprop="dateModified" content="2020-01-10T15:04:42&#43;01:00" />
+<meta itemprop="wordCount" content="896">
+
+
+
+<meta itemprop="keywords" content="gamedev,programming,godot," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Journey to Getting Something Done - Part 1"/>
+<meta name="twitter:description" content="The first thing I needed to do was define the kind of game I wanted to make within the constraints that I defined before.
+ Actually the first thing I already decided beforehand was the engine that I&#39;m going to use. Obviously because this series is about getting something done I&#39;m not going to write my own one.
+The game will be made in Godot, mainly because it is free, open source, easy to use and just great overall."/>
+
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="http://damihl.github.io" class="f3 fw2 hover-white no-underline white-90 dib">
+      damihl
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      
+
+
+
+<a href="https://twitter.com/dAmihl" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/dAmihl" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+
+    <header class="mt4 w-100">
+      <p class="f6 b helvetica tracked">
+          
+        POSTS
+      </p>
+      <h1 class="f1 athelas mb1">Journey to Getting Something Done - Part 1</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-01-10T15:04:42&#43;01:00">January 10, 2020</time>
+      
+      
+    </header>
+
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>The first thing I needed to do was define the kind of game I wanted to make within the constraints that I defined before.</p>
+<blockquote>
+<p>Actually the first thing I already decided beforehand was the engine that I'm going to use. Obviously because this series is about getting something done I'm not
+going to write my own one.<br>
+The game will be made in <a href="https://godotengine.org/">Godot</a>, mainly because it is free, open source, easy to use and just great overall. Although I'm just learning to
+use it properly I already very much fell in love with it!</p>
+</blockquote>
+<p>When I started to think about the simplest game I can imagine, my mind instantly switched to mobile games.
+I know there are mobile games out there which are the quite opposite of simple, but the platform itself offers a pretty nice natural restriction to the scope of my game.
+So I decided to focus on one of the mobile platforms for now. Since I defined that I have to define a single platform that I focus on, and because of the fact that I don't own any Apple products, my decision quickly fell to Android.</p>
+<p>So far, my game is going to be an <strong>Android Game</strong>.</p>
+<p>Alright, that's that. Next I'm going to need a <em>single mechanic</em> which is able to suffice on its own.
+Back to thinking of the simplest game I can imagine.</p>
+<p><em>Cookie Clicker.</em>
+Anyone remembers that? Basically what you do is tap on a cookie and generate cookie points. I even know of some alterations where the game wants you to tap a few thousand times on a dinosaur egg. After you reach a certain counter something is going to happen to the egg.
+In my opinion this was pretty clever, and pretty simple too!</p>
+<p>What I especially like about it is that you just need one of your fingers and the single mechanic in these games is tapping on a thing on your phone.</p>
+<p>You can pull out your phone on the bus, start the game, and tap away.<br>
+When, after half an hour of tapping on your screen, you notice that the stop where the bus is turning up right now is the one you have to get off, but there are around 100 people standing between you and the door and you're getting sweaty and anxious to get to the door before the bus drives off with you still on it..<br>
+you can just close the game without saving anything, and start to work through the struggles of public transport. That's where mobile games really shine.</p>
+<p>So I want to make something like this. Well I don'r really want to make the next clicker game.</p>
+<p>What I came up with is this:
+<strong>A combat game where you have to attack oncoming enemies via <em>alternating tapping patterns</em> on your screen.</strong>
+The game will have a single button at the bottom of the screen. The button is used to issue different tap patterns consisting of short taps, middle-long taps and a long taps.
+Enemies will spawn with a pattern which resembles their defences. The player has to tap the given patterns to attack and destroy oncoming enemies.</p>
+<p>After a little bit of prototyping I currently ended up with this:</p>
+<p><img src="/gifs/clicka_mechanic_1.gif" alt="Base mechanic"></p>
+<p>There's not much to see but I will try to explain what is happening:
+The Godot icon on the bottom of the screen is the &ldquo;tap button&rdquo;. The numbers above this button represent the current input buffer. 0 means short tap, 1 means middle-long tap and 2 means long-tap.
+The godot icons moving from the top to the bottom represent the enemies. The numbers above them represent the pattern the player has to tap in order to destroy them.</p>
+<p>The input buffer is then executed one by one seperated by a timer. Every input is applied to the currently nearest enemy.</p>
+<h2 id="design-notes">Design Notes</h2>
+<p>I already iterated on this mechanic a little.
+The first version worked by applying the input buffer all at once to the nearest <em>matching</em> enemy. So a short-short-long tap would destroy the nearest enemy with the short-short-long pattern.
+This was fine, although after trying the &ldquo;serial&rdquo; version as seen in the gif above I noticed that it requires more planning than the all-at-once version.
+Because the inputs are executed one-by-one with a little delay, and the enemies have different speeds, it is possible that the nearest enemy changes over time.</p>
+<p>The player therefore has to not only limit theirself to less inputs but also has to multitask by keeping an eye on the enemies, the nearest enemy, possible enemies which might be faster than the current nearest enemy etc.
+Planning and multitasking tend to make games more engaging which made me decide on this version for now.</p>
+<p>I actually held on to the all-at-once version still because it might be a good method to go about the main menu and game over screen.
+Different menu items could also have different patterns to use the same mechanic (<em>also good to teach the player instantly how to play the game without needing a tutorial!</em>). Menu items probably will have a single-input pattern only but that's something to figure out at a later time :)</p>
+<p>In that part I already got the platform and the main mechanic defined.
+Next part will probably be me creating simple assets to get a better feel for the mechanic early.</p>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/gamedev" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">gamedev</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/programming" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">programming</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/godot" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">godot</a>
+   </li>
+  
+</ul>
+<div class="mt6">
+      
+      
+      </div>
+    </section>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/posts/journey-to-getting-something-done-foreword/">Journey to Getting Something Done - Foreword</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://damihl.github.io" >
+    &copy;  damihl 2020 
+  </a>
+    <div>
+
+
+
+<a href="https://twitter.com/dAmihl" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+<a href="https://github.com/dAmihl" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

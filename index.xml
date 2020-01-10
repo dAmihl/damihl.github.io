@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Journey to Getting Something Done - Part 1</title>
+      <link>http://damihl.github.io/posts/journey-to-getting-something-done-part-1/</link>
+      <pubDate>Fri, 10 Jan 2020 15:04:42 +0100</pubDate>
+      
+      <guid>http://damihl.github.io/posts/journey-to-getting-something-done-part-1/</guid>
+      <description>The first thing I needed to do was define the kind of game I wanted to make within the constraints that I defined before.
+ Actually the first thing I already decided beforehand was the engine that I&#39;m going to use. Obviously because this series is about getting something done I&#39;m not going to write my own one.
+The game will be made in Godot, mainly because it is free, open source, easy to use and just great overall.</description>
+    </item>
+    
+    <item>
       <title>Journey to Getting Something Done - Foreword</title>
       <link>http://damihl.github.io/posts/journey-to-getting-something-done-foreword/</link>
       <pubDate>Thu, 09 Jan 2020 17:22:14 +0100</pubDate>
