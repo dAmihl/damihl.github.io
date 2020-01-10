@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>damihl</title>
+    <title>Things worth writing on damihl</title>
     <link>http://damihl.github.io/</link>
-    <description>Recent content on damihl</description>
+    <description>Recent content in Things worth writing on damihl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Jan 2020 12:53:05 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jan 2020 15:13:21 +0100</lastBuildDate>
     
 	<atom:link href="http://damihl.github.io/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello World</title>
-      <link>http://damihl.github.io/posts/hello-world/</link>
-      <pubDate>Thu, 09 Jan 2020 12:53:05 +0100</pubDate>
-      
-      <guid>http://damihl.github.io/posts/hello-world/</guid>
-      <description>Hello World! This is created via Hugo! </description>
-    </item>
     
   </channel>
 </rss>
