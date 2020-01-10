@@ -6,9 +6,19 @@
     <description>Recent content in Series on damihl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Thu, 09 Jan 2020 17:22:14 +0100</lastBuildDate>
     
 	<atom:link href="http://damihl.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Journey to Getting Something Done</title>
+      <link>http://damihl.github.io/series/journey-to-getting-something-done/</link>
+      <pubDate>Thu, 09 Jan 2020 17:22:14 +0100</pubDate>
+      
+      <guid>http://damihl.github.io/series/journey-to-getting-something-done/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
