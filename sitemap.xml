@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://damihl.github.io/tags/gamedev/</loc>
+    <lastmod>2020-01-09T17:22:14+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://damihl.github.io/series/journey-to-getting-something-done/</loc>
     <lastmod>2020-01-09T17:22:14+01:00</lastmod>
   </url>
@@ -18,7 +23,22 @@
   </url>
   
   <url>
+    <loc>http://damihl.github.io/tags/programming/</loc>
+    <lastmod>2020-01-09T17:22:14+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://damihl.github.io/series/</loc>
+    <lastmod>2020-01-09T17:22:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://damihl.github.io/tags/</loc>
+    <lastmod>2020-01-09T17:22:14+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://damihl.github.io/tags/thoughts/</loc>
     <lastmod>2020-01-09T17:22:14+01:00</lastmod>
   </url>
   
@@ -29,10 +49,6 @@
   
   <url>
     <loc>http://damihl.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://damihl.github.io/tags/</loc>
   </url>
   
 </urlset>
