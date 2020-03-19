@@ -6,13 +6,23 @@
     <description>Recent content in godot on damihl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Mar 2020 06:14:48 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2020 08:30:09 +0100</lastBuildDate>
     
 	<atom:link href="http://damihl.github.io/tags/godot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Journey to Getting Something Done Part 4</title>
+      <title>Journey to Getting Something Done - Part 5</title>
+      <link>http://damihl.github.io/posts/journey-to-getting-something-done-part-5/</link>
+      <pubDate>Thu, 19 Mar 2020 08:30:09 +0100</pubDate>
+      
+      <guid>http://damihl.github.io/posts/journey-to-getting-something-done-part-5/</guid>
+      <description>The virus situation The Coronavirus also hit my home country Austria in the last couple weeks which is not a particularly surprising thing for a pandemic virus to do. What we usually don&#39;t expect such a virus to do is help us making some progress with our games. Of course I&#39;d prefer a no-virus-situation over the current crisis but, well, it is what it is.
+Because I am currently not allowed to leave my flat (except for getting groceries of course) I have a lot more time on the evenings.</description>
+    </item>
+    
+    <item>
+      <title>Journey to Getting Something Done - Part 4</title>
       <link>http://damihl.github.io/posts/journey-to-getting-something-done-part-4/</link>
       <pubDate>Wed, 18 Mar 2020 06:14:48 +0100</pubDate>
       
@@ -22,7 +32,7 @@ In fact there currently is a linear increase in time such that the number of the
     </item>
     
     <item>
-      <title>Journey to Getting Something Done Part 3</title>
+      <title>Journey to Getting Something Done - Part 3</title>
       <link>http://damihl.github.io/posts/journey-to-getting-something-done-part-3/</link>
       <pubDate>Wed, 19 Feb 2020 14:52:43 +0100</pubDate>
       
